@@ -125,7 +125,8 @@ header {
     float: right;
     margin-top: 205px;
 }
-.about{
+
+.about {
     width: 1093px;
     margin: 0 auto;
 }
@@ -220,7 +221,6 @@ header {
 
 .featured_text img {
     margin-bottom: 4px;
-
     width: 766px;
 }
 
@@ -241,6 +241,7 @@ header {
     list-style: none;
     padding: 18px 44px;
     border-right: 1px solid #E4E4E4;
+    transition: 1s;
 }
 
 .featured_logo ul li:last-child {
@@ -253,9 +254,10 @@ header {
     margin-top: -3px;
 }
 
-#img4 {
-    margin-top: 9px;
+.featured_logo ul li:hover {
+    background-color: #c9c5c5;
 }
+
 
 #link2 {
     padding-top: 20px;
@@ -266,7 +268,8 @@ header {
 }
 
 #link4 {
-    padding-top: 7px;
+    padding-bottom: 11px;
+    padding-right: 54px;
 }
 
 footer {

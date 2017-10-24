@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'stryde';
+    src: url(../fonts/StRyde-Regular.otf);
+
+}
+
+@font-face {
+    font-family: 'sofiapro';
+    src: url(../fonts/sofiapro-light.otf);
+}
+
+header {
+    overflow: hidden;
+
+}
+
+.header_bar {
+    width: 1349px;
+    margin: 0 auto;
+    height: 10px;
+    background-color: #A192B3;
+}
+
+.header_wrapper {
+    width: 1118px;
+    min-height: 130px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 22%;
+    float: left;
+    margin: 30px 0px;
+}
+
+.menubar {
+    width: 64%;
+    float: right;
+    margin-top: 50px;
+    height: 20px;
+}
+
+.menubar ul {
+
+    float: right;
+}
+
+.menubar ul li {
+    float: left;
+    margin-right: 70px;
+    list-style: none;
+}
+
+.menubar ul li:last-child {
+    margin-right: 0px;
+}
+
+.menubar ul li a {
+    text-decoration: none;
+    font-family: 'stryde';
+    font-size: 20px;
+    color: #646464;
+    transition: .5s;
+}
+
+.menubar ul li a:hover {
+    color: coral;
+}
+
+.menubar ul li a img {
+
+    margin-right: 8px;
+}
+
+.contact_img {
+    margin-top: 5px;
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.slider_wrapper {
+    width: 1118px;
+    min-height: 485px;
+    margin: 0 auto;
+}
+
+.slider_bg {
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 485px;
+}
+
+.left_indicator {
+    float: left;
+    margin-top: 205px;
+}
+
+.slider_bg h1 {
+    font-size: 117px;
+    color: white;
+    font-family: 'stryde';
+    text-align: center;
+    font-weight: 100;
+    padding-top: 132px;
+    text-shadow: -5px 6px 0px #2B2D3C;
+}
+
+.slider_bg p {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'sofiapro';
+    color: white;
+    text-shadow: 2px 2px 0px #2B2D3C;
+}
+
+.right_indicator {
+    float: right;
+    margin-top: 205px;
+}
+.about{
+    width: 1093px;
+    margin: 0 auto;
+}
+
+.about_text {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    /* width: 81%; */
+    border-top: 1px solid #BFBFBF;
+    margin-top: 40px;
+    border-bottom: 1px solid #BFBFBF;
+    padding: 20px 0px;
+    font-family: 'stryde';
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 100;
+    color: #484848;
+    text-indent: 17px;
+}
+
+.content {
+    overflow: hidden;
+}
+
+.content_wrapper {
+    width: 1093px;
+    margin: 0 auto;
+    margin-top: 39px;
+    min-height: 380px;
+}
+
+.circle_img {
+    float: left;
+    width: 28%;
+    margin-right: 35px;
+}
+
+.content_text {
+    float: right;
+    width: 68%;
+}
+
+.content_wrapper h2 {
+    font-family: segoe ui;
+    color: #505050;
+    font-weight: bold;
+    font-size: 31px;
+    margin-bottom: 26px;
+    margin-top: 30px;
+}
+
+.content_wrapper span {
+    color: #838383;
+    font-family: segoe ui;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.content_wrapper a {
+    display: block;
+    text-decoration: none;
+    color: #505050;
+    font-family: segoe ui;
+    font-style: italic;
+    margin-top: 15px;
+    margin-left: 87%;
+    font-size: 14px;
+    transition: .3s;
+}
+
+.content_wrapper a:hover {
+    color: red;
+
+}
+
+.content_wrapper a img {
+    margin-left: 3px;
+}
+
+
+.featured_wrapper {
+    width: 1093px;
+    margin: 0 auto;
+    min-height: 195px;
+}
+
+.featured_text {
+    font-size: 23px;
+    font-family: segoe ui;
+}
+
+.featured_text img {
+    margin-bottom: 4px;
+
+    width: 766px;
+}
+
+.featured_logo {
+    width: 100%;
+    margin: 0 auto;
+    background: #F5F5F5;
+}
+
+.featured_logo ul {
+    height: 70px;
+    border: 1px solid #E4E4E4;
+    margin-top: 30px;
+}
+
+.featured_logo ul li {
+    float: left;
+    list-style: none;
+    padding: 18px 44px;
+    border-right: 1px solid #E4E4E4;
+}
+
+.featured_logo ul li:last-child {
+    border-right: none;
+}
+
+.featured_logo ul li a {}
+
+#img3 {
+    margin-top: -3px;
+}
+
+#img4 {
+    margin-top: 9px;
+}
+
+#link2 {
+    padding-top: 20px;
+}
+
+#link3 {
+    padding-bottom: 12px;
+}
+
+#link4 {
+    padding-top: 7px;
+}
+
+footer {
+    width: 1349px;
+    margin: 0 auto;
+    height: 70px;
+    background-image: url(../images/footer_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer_wrapper {
+    width: 1093px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.copyrigt_text {
+    float: left;
+    color: #444243;
+    font-family: segoe ui;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.social_icon {
+    float: right;
+}
+
+.facebook {
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.footer_bar {
+    background: #A192B3;
+    height: 10px;
+    width: 1349px;
+    margin: 0 auto;
+}

@@ -16,7 +16,8 @@
 
 header {
     overflow: hidden;
-
+    width: 1349px;
+    margin: 0 auto;
 }
 
 .header_bar {
@@ -83,6 +84,8 @@ header {
 
 .slider {
     overflow: hidden;
+    width: 1349px;
+    margin: 0 auto;
 }
 
 .slider_wrapper {
@@ -127,7 +130,7 @@ header {
 }
 
 .about {
-    width: 1093px;
+    width: 1349px;
     margin: 0 auto;
 }
 
@@ -135,7 +138,7 @@ header {
     text-align: center;
     display: block;
     margin: 0 auto;
-    /* width: 81%; */
+    width: 1093px;
     border-top: 1px solid #BFBFBF;
     margin-top: 40px;
     border-bottom: 1px solid #BFBFBF;
@@ -150,6 +153,8 @@ header {
 
 .content {
     overflow: hidden;
+    width: 1349px;
+    margin: 0 auto;
 }
 
 .content_wrapper {
@@ -207,6 +212,14 @@ header {
     margin-left: 3px;
 }
 
+.featured{
+
+width: 1349px;
+
+overflow: hidden;
+
+margin: 0 auto;
+}
 
 .featured_wrapper {
     width: 1093px;
